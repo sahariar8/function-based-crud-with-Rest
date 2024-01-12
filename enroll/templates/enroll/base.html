@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+    <title>Function based CRUD</title>
+</head>
+<body class="container">
+    <h1 class="mt-2 font-bold text-center alert alert-danger">Function Based CRUD with REST api</h1>
+
+    {% block content %} {% endblock content %}
+
+    <script src="{% static 'enroll/js/jquery.js' %}"></script>
+    <script src="{% static 'enroll/js/popper.js' %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+</body>
+</html>
